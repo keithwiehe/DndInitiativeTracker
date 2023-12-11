@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "DndInitiativeTracker:build:production"
+              "buildTarget": "DndInitiativeTracker:build:production"
             },
             "development": {
-              "browserTarget": "DndInitiativeTracker:build:development"
+              "buildTarget": "DndInitiativeTracker:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "DndInitiativeTracker:build"
+            "buildTarget": "DndInitiativeTracker:build"
           }
         },
         "test": {
